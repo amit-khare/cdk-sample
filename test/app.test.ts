@@ -4,7 +4,7 @@
 
 // example test. To run these tests, uncomment this file along with the
 // example resource in lib/cdk-sample-stack.ts
-test('SQS Queue Created', () => {
+test('ApiGatewayLambdaExampleStack', () => {
 	//   const app = new cdk.App();
 	//     // WHEN
 	//   const stack = new CdkSample.CdkSampleStack(app, 'MyTestStack');

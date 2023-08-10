@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { CdkSampleStack } from '../lib/cdk-sample-stack';
+import { ApiGatewayLambdaExampleStack } from '../lib/ApiGatewayLambdaExampleStack';
 
 const app = new cdk.App();
-new CdkSampleStack(app, 'CdkSampleStack', {
+new ApiGatewayLambdaExampleStack(app, 'ApiGatewayLambdaExampleStack', {
 	/* If you don't specify 'env', this stack will be environment-agnostic.
 	 * Account/Region-dependent features and context lookups will not work,
 	 * but a single synthesized template can be deployed anywhere. */
