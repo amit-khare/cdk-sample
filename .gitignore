@@ -8,3 +8,4 @@ test-results
 .cdk.staging
 cdk.out
 ts.out
+.idea/
